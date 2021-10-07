@@ -1,0 +1,59 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: #818181;
+  background-color: #fff;
+  }
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#FF5733; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+  }
+
+/*Selecciona todos los párrafos*/
+/*Especificidad: 001
+p {
+  color: #fff;    
+  background-color:#ff7e33; 
+}
+
+/*Selecciona los párrafos dentro de main*/
+/*Especificidad: 002
+main p{
+  color: #fff;    
+  background-color:#74ff33; 
+}
+
+/*Selecciona el párrafo que sea el primer hijo dentro de main*/
+/*Especificidad: 012
+main > p:first-child{
+  color: #fff;    
+  background-color:#33ffdd; 
+}
+
+/*Selecciona los párrafos de las secciones*/
+/*Especificidad: 001
+section p{
+  color: #fff;    
+  background-color:#ee33ff; 
+}
+
+/*Selecciona la última sección dentro de main*/
+/*Especificidad: 012
+main > section:last-of-type{
+  color: #fff;    
+  background-color:#3336ff; 
+
+}
+
+
+/*Selecciona el h2 de la última sección dentro de main*/
+/*Especificidad: 013
+main > section:last-of-type>h2{
+  color: #fff;    
+  background-color:#ff3333; 
+
+}*/
