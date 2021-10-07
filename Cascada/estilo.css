@@ -1,0 +1,22 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: #818181;
+  background-color: #fff;
+  /*el tamaño de fuente no se especifica: comprobar el tamaño calculado -> 16px*/
+  }
+/*Especificidad: 001*/
+h1 {
+  /* hereda font-family */
+  color: #fff;    
+  background-color:#FF5733; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;  
+  /*tamaño de la fuente 30% (3 veces) mayor que el tamaño de fuente heredado por los elementos h1 -> 16*3=48px   */
+  font-size: 3em;
+  }
+
+
+
+
