@@ -1,0 +1,30 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: #818181;
+  background-color: #fff;
+  /*el tamaño de fuente no se especifica: comprobar el tamaño calculado -> 16px*/
+  }
+/*Especificidad: 001*/
+h1 {
+  /* hereda font-family */
+  color: #fff;    
+  background-color:#FF5733; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;  
+  /*tamaño de la fuente 30% (3 veces) mayor que el tamaño de fuente heredado por los elementos h1 -> 16*3=48px   */
+  font-size: 3em;
+  }
+/*Especificidad: 001*/
+h2{
+   /* hereda font-family y el color de fondo*/
+   color: #121212;
+   /*tamaño de la fuente 2% del ancho del viewport. Si el width de html es 1662px el tamaño de la fuente sera el 2% * 1662px = 33.24px*/ 
+   font-size: 2vw;
+
+}
+
+
+
+
